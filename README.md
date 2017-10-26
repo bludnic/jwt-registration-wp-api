@@ -1,4 +1,4 @@
-## Example with Angular
+## Example with Angular 4
 
 ```javascript
 let params = {
