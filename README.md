@@ -9,7 +9,7 @@ let params = {
   last_name: ''
 };
 
-this.http.post('http://example.com/wp-json/jwt-auth/v1/token', params)
+this.http.post('http://example.com/wp-json/rjwt/v1/user', params)
 .map(res => res.json())
 .subscribe((user) => {
   console.log(user.token); // Will be used for JWT Authentication 
