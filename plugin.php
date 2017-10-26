@@ -1,7 +1,6 @@
 <?php
 /*
 Plugin Name:  JWT Registration
-Plugin URI:   https://developer.wordpress.org/plugins/the-basics/
 Description:  JWT Registration for WP REST API. Requires JWT Authentication Plugin.
 Version:      1.0.0
 Author:       bluder
