@@ -5,8 +5,8 @@ let params = {
   username: 'vasya', // required
   password: 'elipili', // required
   email: 'vasya.pupkin@example.com', // required
-  first_name: 'Vasya Pupkin',
-  last_name: ''
+  first_name: 'Vasya',
+  last_name: 'Pupkin'
 };
 
 this.http.post('http://example.com/wp-json/rjwt/v1/user', params)
